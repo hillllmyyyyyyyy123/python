@@ -1,0 +1,7 @@
+country_tuple = ("frnce","england","spain","germany","australia")
+print(country_tuple)
+print()
+country = input("please enter one of the countries from above: ")
+print(country, "has index number",country_tuple.index(country))
+print()
+num = int(input("enter a number betwen 0 and 4: "))
